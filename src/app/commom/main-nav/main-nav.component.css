@@ -1,0 +1,36 @@
+.marginl {
+  margin-left: 50px;
+}
+
+a:hover {
+  color: #fd4766 !important;
+}
+
+.abtn:hover {
+  color: white !important;
+  border-color: #fd4766;
+  background-color: #fd4766;
+}
+
+.logo {
+  inline-size: 133.64px;
+}
+
+a {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.abtn {
+  border-radius: 30px;
+  border-color: black;
+  border-style: solid;
+  border-spacing: 1px;
+  padding: 13px 30px;
+  border-width: 2.7px;
+}
+
+.padded {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}

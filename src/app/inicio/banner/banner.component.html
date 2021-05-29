@@ -1,0 +1,38 @@
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+         <div class="carousel-item" *ngFor="let banner of banners"  [ngClass]="{'active': banner.title==='Business.'}">
+          <div class="container-fluid banner-back"  [ngStyle]="{ 'background-image': 'url(' + banner.url + ')'}">
+            <div class="container efeup">
+              <div class="row align-items-center justify-content-center ms-5 vh-100">
+                <div>
+                <h1>{{banner.title}}</h1>
+                <p>{{banner.text}}</p>
+                  <a href="#"  >{{banner.botonText}}</a>              
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </div>   
+ 
+
+  </div>
+
+
+
+  
+  <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+      <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+    </svg>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+      <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+    </svg>
+    
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>

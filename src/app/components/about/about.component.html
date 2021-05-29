@@ -1,0 +1,50 @@
+<div class="container background-gradient">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="breadcrumb-inner pt--100">
+          <h2 class="title">{{frase}}</h2>
+          <ul class="page-list">
+            <li class="rn-breadcrumb-item"><a href="http://rainbowit.net/html/imroz/index.html">Home</a></li>
+            <li class="rn-breadcrumb-item active">{{frase}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="container pt--100">
+    <div class="row">
+      <div class="col-lg-12 text-center letras">
+        <div class=" text-left "><span class="subtitle">All projects</span>
+          <h2 class="title">All Works</h2>
+          <p class="description">There are many variations of passages of Lorem Ipsum available,
+            but the majority have suffered alteration.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="container paddingbottom">
+    <div class="row justify-content-around">
+
+
+        <div class="col-12 col-md-4  degradado " *ngFor="let project of projects">
+            <div class="team">
+                <div class="thumbnail border border-5"><img src="{{project.imageURL}}" alt="Blog Images" class=" border rounded-3 "> 
+                </div>
+                <div class="up">
+                <ul class="subtitle-project">                           
+                    {{project.productSubtitle}}
+                </ul>
+                <div class="content">
+                    <h4 class="title">{{project.productTitle}}</h4>
+                    <p class="designation">{{project.text}}</p>
+                </div>
+            </div>
+            </div>
+        </div>  
+
+    </div>
+</div>
