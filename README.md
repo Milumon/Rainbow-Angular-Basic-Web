@@ -1,4 +1,6 @@
-# RainbowApp  [VISIT WEB](https://rainbow-milumon.000webhostapp.com/)  
+# RainbowApp - [Visit Web](https://rainbow-milumon.000webhostapp.com/)  
+
+![Web Design](Screenshot.jpg)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
 
